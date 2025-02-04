@@ -9,11 +9,11 @@
   
 - summary: |
     Проверка добавления товара в корзину
-  status:
+  status: pass
   
 - summary: |
     Проверка удаления товара из корзины
-  status:
+  status: pass
   
 - summary: |
     Проверка оформления заказа
