@@ -1,29 +1,29 @@
 - summary: Проверка просмотра каталога товаров
-   status: pass
+  status: pass
   
 - summary: Проверка фильтрации товаров
-   status: pass
+  status: pass
   
 - summary: Проверка добавления товара в корзину
-   status: pass
+  status: pass
   
 - summary: Проверка удаления товара из корзины
-   status: pass
+  status: pass
   
 - summary: Проверка оформления заказа
-   status: fail
+  status: fail
   
 - summary: Проверка сохранения корзины между сессиями
-   status: fail
+  status: fail
   
 - summary: Проверка работы адаптивной верстки на мобильных устройствах
-   status: fail
+  status: fail
   
 - summary: Проверка корректности расчета скидок
-   status: fail
+  status: fail
 
 - summary: Проверка переключения языка интерфейса (Русский/Английский)
-   status: fail
+  status: fail
 
 - summary: Проверка отображения страницы на разных языках
-   status: fail
+  status: fail
