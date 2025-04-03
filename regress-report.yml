@@ -3,7 +3,7 @@ test-cases:
       Проверка оформления заказа
     status: fail
     
-bugreports:
+bugreports1:
   - summary: |
       Не работает форма оформления заказа (отсутствует возможность перехода на страницу оплаты)
     environment: | 
@@ -19,7 +19,7 @@ bugreports:
       Проверка сохранения корзины между сессиями
     status: fail
     
-bugreports:
+bugreports2:
   - summary: |
       Не работает сохранение корзины при переходе между сессиями
     environment: |
@@ -39,7 +39,7 @@ bugreports:
       Проверка работы адаптивной верстки на мобильных устройствах
     status: fail
     
-bugreports:
+bugreports3:
   - summary: |
       Не работает адаптивная верстка на мобильных устройствах
     environment: |
@@ -57,7 +57,7 @@ bugreports:
       Проверка корректности расчета скидок
     status: fail
     
-bugreports:
+bugreports4:
   - summary: |
       Не работает корректный расчет скидок
     environment: |
@@ -74,7 +74,7 @@ bugreports:
       Проверка переключения языка интерфейса (Русский/Английский)
     status: fail
     
-bugreports:
+bugreports5:
   - summary: |
       Не работает переключение языка интерфейса (Русский/Английский)
     environment: |
@@ -95,7 +95,7 @@ bugreports:
       Проверка отображения страницы на разных языках
     status: fail
     
-bugreports:
+bugreports6:
   - summary: |
       Не работает отображение страницы на разных языках
     environment: |
