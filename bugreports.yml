@@ -18,7 +18,7 @@
    4.Проверяем содержимое корзины
   expected-result: Содержимое корзины сохранено после перезапуска браузера
   actual-result: После закрытия и открытия браузера выбранный товар исчезает. В консоли браузера (DevTools, вкладка «Application», раздел Cookies) отсутствует запись о добавлении товара в корзину
-  attachments:
+  attachments: https://github.com/Cherrystone82/qa-engineer-project-84/blob/main/screenshots/Проверка%20сохранения%20корзины%20между%20сеесиями.png
   
 - summary: Не работает адаптивная верстка на мобильных устройствах
   environment: iPhone 13 Pro Max 256 ГБ, iOS 16.3, Safari
