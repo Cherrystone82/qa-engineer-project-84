@@ -32,7 +32,7 @@
   status: fail
   
 - summary: Проверка времени загрузки и производительности страницы
-  status: fail
+  status: pass
   
 - summary: Проверка работы пагинации
   status: fail
