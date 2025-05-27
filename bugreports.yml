@@ -89,3 +89,14 @@
   expected-result: При наведении курсора на иконку корзины отображается всплывающее окно (tooltip)
   actual-result: При наведении курсора на иконку корзины всплывающее окно (tooltip) не отображается
   attachments: https://github.com/Cherrystone82/qa-engineer-project-84/blob/main/screenshots/Не%20отображается%20tooltip.png
+
+- summary: При проверке поведения сетевых запросов выявлена ошибки при загрузке статических файлов (CSS и JS)
+  environment: Google Chrome 133.0.6943.127 (Официальная сборка) (arm64), macOS Sequoia 15.3
+  steps-to-reproduce:
+   1.Открыть сайт https://hexlet-products-store.vercel.app/ 
+   2.Перейти в DevTools → вкладку "Сеть" (Network)
+   3.Обновить страницу
+   4.Проверить список запросов
+  expected-result: Все статические файлы должны загружаться корректно без ошибок, cайт должен отображаться полностью с правильной вёрсткой и функциональностью
+  actual-result: Файлы `random.css` и `author.js` не загружаются из-за ошибки `net::ERR_NAME_NOT_RESOLVED`. Сайт отображается без стилей и интерактивных элементов, связанных с этими файлами.
+  attachments:
