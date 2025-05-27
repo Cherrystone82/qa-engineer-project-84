@@ -7,6 +7,7 @@
    4.Подтверждаем заказ
   expected-result: Пользователь переходит на страницу оплаты с подтверждением деталей заказа
   actual-result: Отсутствует возможность перехода на страницу оплаты и подтверждения деталей заказа
+  attachments: https://github.com/Cherrystone82/qa-engineer-project-84/blob/main/screenshots/Проверка%20оформления%20заказа.png
 - summary: Не работает сохранение корзины при переходе между сессиями
   environment: Google Chrome 133.0.6943.127 (Официальная сборка) (arm64), macOS Sequoia 15.3
   steps-to-reproduce:
